@@ -1,0 +1,41 @@
+body {
+  background-image: url("../img/1622524104_49-pibig_info-p-gornaya-polyana-priroda-krasivo-foto-50.jpg");
+}
+.slider {
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
+.slider-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease;
+}
+.prev {
+  position: absolute;
+  z-index: 2;
+  width: 60px;
+  top: 200px;
+  left: 10px;
+  transform: rotate(3.142rad);
+  cursor: pointer;
+}
+.next {
+  position: absolute;
+  z-index: 2;
+  width: 60px;
+  top: 200px;
+  right: 10px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
