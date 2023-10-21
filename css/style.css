@@ -30,6 +30,7 @@ h1 {
   top: 140px;
   left: 10px;
   transform: rotate(3.142rad);
+  cursor: pointer;
 }
 .next {
   position: absolute;
@@ -37,6 +38,7 @@ h1 {
   width: 30px;
   top: 140px;
   right: 10px;
+  cursor: pointer;
 }
 .hidden {
   display: none;
